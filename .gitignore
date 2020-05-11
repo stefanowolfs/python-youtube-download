@@ -104,4 +104,4 @@ dmypy.json
 .pyre/
 
 # Custom
-videos/
+videos/*
