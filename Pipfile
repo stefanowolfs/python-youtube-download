@@ -7,8 +7,8 @@ verify_ssl = true
 pylint = "*"
 
 [packages]
-pytube = "*"
 pytube3 = "*"
+spotdl = "*"
 
 [requires]
 python_version = "3.8"
