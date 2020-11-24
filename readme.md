@@ -18,7 +18,7 @@ Atualmente o youtube mudou o nome de uma das variaveis internas da api e está e
 Para corrigir o mesmo basta abrir o aquivo "extract.py" do pacote "pytube" e mudar a linha
 
 ```python
-parse_qs(formats[i]["signatureCipher"]) for i, data in enumerate(formats)
+parse_qs(formats[i]["cipher"]) for i, data in enumerate(formats)
 ```
 
 para
